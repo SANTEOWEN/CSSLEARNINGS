@@ -1,10 +1,15 @@
 body
 {
-
-    background: linear-gradient(#000428, #004e92);
+    background: linear-gradient(#185a9d, #43cea2);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
+    background-image: url(imagesused/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
 }
 
 #h1st{
