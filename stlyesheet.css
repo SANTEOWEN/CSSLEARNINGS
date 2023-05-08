@@ -1,5 +1,9 @@
+/* This part is for Learning adding background colors and images*/
 body
 {
+    /*Margin is a the space outside of the border
+      - U can also use percents(%)*/
+    margin: 0px;
     background: linear-gradient(#185a9d, #43cea2);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,7 +15,7 @@ body
     background-size: cover;
 
 }
-
+/* This part is for Learning borders*/
 #h1st{
     border-top-style: solid;
     border-bottom-style:solid;
@@ -36,7 +40,7 @@ background-color: lightsteelblue;
 color: black;
 
 }
-
+/* This part is for Learning margins*/
 
 #numba2{
     background-color: darkkhaki;
@@ -48,3 +52,24 @@ color: black;
     text-align: center;
 }
 
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 21.5px;
+    background: linear-gradient(#bdc3c7, #2c3e50);
+
+
+    /*Padding is the space beetwen the content and the border*/
+    padding: 5px;
+}
+
+#box2{
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 21.5px;
+    background: linear-gradient(#bdc3c7, #2c3e50);
+}
