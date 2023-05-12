@@ -93,3 +93,68 @@ font-size: 30px;
 text-align: center;
 background: red;
 }
+
+
+/* This part is for pseudo code*/
+a:link{
+
+    color: lawngreen;
+
+}
+
+a:visited{
+
+    color:grey;
+}
+
+a:hover{
+
+    color: #43cea2;
+
+}
+
+
+a:active{
+
+    color: yellow;
+
+}
+
+button:hover{
+
+    background-color: aquamarine;
+
+}
+
+button:active{
+
+background-color: chartreuse;
+}
+
+/*
+li:nth-child(3){
+
+background-color: yellow;
+
+
+}
+*/
+
+/*
+li:nth-child(even){
+    background-color: red;
+
+}
+
+
+li:nth-child(odd){
+
+    background-color: #185a9d;
+}
+*/
+
+
+li:nth-child(3n + 3){
+
+    background-color: red;
+}
