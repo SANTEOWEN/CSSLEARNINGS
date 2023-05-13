@@ -7,13 +7,13 @@ body
     background: linear-gradient(#185a9d, #43cea2);
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+/*
     background-image: url(imagesused/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
+*/
 }
 p
 {
@@ -153,8 +153,51 @@ li:nth-child(odd){
 }
 */
 
-
+/*
 li:nth-child(3n + 3){
 
-    background-color: red;
+    background-color: white;
+}
+
+*/
+
+
+/* this part for before and after content from pseudo code*/
+
+
+
+#html::before{
+
+    content: ✔;
+
+
+}
+
+
+
+/*This part is for learning shadows 
+*/
+
+
+
+.text5{
+color: white;
+text-shadow: 0px 0px 3px yellow , 0px -5px 5px red;
+
+
+}
+
+.text5:hover{
+
+
+    box-shadow: 0px 0px 5px black;
+
+}
+
+/*This part is for learning icons*/
+
+.fa-house-blank{
+
+
+    color: red;
 }
